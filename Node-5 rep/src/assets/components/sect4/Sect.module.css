@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Blinker", sans-serif;
+    justify-content: center;
+}
+.main{
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    h4{
+        color: #ADC2DB;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        color: #808080;
+        width: 80%;
+        font-size: 20px;
+    }
+}

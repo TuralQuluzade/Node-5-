@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.card{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    align-items: center;
+    font-family: "Blinker", sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+    border-radius: 10px;
+    &:hover{
+        border: 5px solid orange;
+        transition: .6s;
+        transform: scale(0.95);
+        cursor: pointer;
+        
+    }
+    
+    img{
+        width: 60%;
+        height: 58%;
+        
+    }
+}
+
+.rate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.ur{
+    &:hover{
+        color: red;
+        transition: .3s;
+    }
+}
+.price{
+    font-size: 20px;
+}
+.btn{
+    width: 50%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    button{
+        width: 49%;
+        height: 100%;
+    }
+}
+.cad{
+    background-color: black;
+    color: white;
+    border: none;
+    &:hover{
+        background: none;
+        border: 3px solid black;
+        color: black;
+        transition:.3s;
+    }
+}
+.wei{
+    background: none;
+    border: 3px solid black;
+    color: black;
+    &:hover{
+        background-color: black;
+        color: white;
+        border: none; 
+        transition:.3s;
+    }
+}

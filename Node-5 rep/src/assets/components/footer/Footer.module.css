@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.container{
+    padding: 80px 200px;
+    font-family: "Blinker", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+  display: flex;
+  width: 60%;
+  height: auto;
+  justify-content: space-between;
+}
+.about{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h2{
+        font-weight: 600;
+    }
+    p{
+        width: 50%;
+        font-size: 17px;
+        
+        
+        height: 15%;
+        font-weight: 300;
+    }
+}
+.quick{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    a{
+        text-decoration: none;
+        color:  gray;
+    }
+}
+.follow{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.featured{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    img{
+        width: 300px;
+        
+    }
+    h4{
+        font-size:20px;
+        font-weight: 600;
+    }
+    h3{
+        font-weight: 400;
+    }
+    button{
+        width: 140px;
+        height: 40px;
+        border: none;
+        background-color: black;
+        color: white;
+        &:hover{
+            border: 2px solid black;
+            background: none;
+            color: black;
+            transition: .3s;
+        }
+
+    }
+}
